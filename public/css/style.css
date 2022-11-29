@@ -1,0 +1,46 @@
+/* exo1 */
+section:nth-child(2) span {
+    display: flex;
+    color: white;
+    background-color: black;
+    height: 100px;
+    width: 300px;
+
+}
+
+/* exo2 */
+li:nth-child(even) {
+    color: white;
+
+}
+/* exo3 */
+section:nth-child(4) span, section:nth-child(4) strong, section:nth-child(4) u{
+    display: block;
+}
+/* exo4 */
+section:nth-child(5) p, section:nth-child(5) div, section:nth-child(5) h5, section:nth-child(5) p {
+    display: inline-block
+
+}
+/* exo5 */
+
+section:nth-child(6) div {
+    position: relative;
+    display: flex;
+    display: block;
+
+}
+
+.red {
+    position: absolute;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.green {
+    position: absolute;
+    float: left;
+
+}
